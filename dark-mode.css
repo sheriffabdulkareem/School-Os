@@ -1,0 +1,58 @@
+/* =========================================================
+   SCHOOL OS — DARK MODE
+   Dark-mode overrides only. Brand colors remain centralized.
+   ========================================================= */
+[data-theme="dark"] {
+    --color-heading: #eaf3ff;
+    --color-text: #b8c9da;
+    --color-muted: #91a5b9;
+    --color-border: #263d55;
+    --color-surface: #0f1d2d;
+    --color-surface-soft: #13253a;
+    --color-hero-start: #0c1b2c;
+    --color-hero-end: #101f31;
+    --shadow-soft: 0 15px 40px rgba(0, 0, 0, .25);
+}
+
+[data-theme="dark"] body {
+    background: var(--color-surface);
+    color: var(--color-text);
+}
+
+[data-theme="dark"] .navbar {
+    background: rgba(15, 29, 45, .92);
+}
+
+[data-theme="dark"] .nav-link,
+[data-theme="dark"] .login-btn {
+    color: #c7d6e5 !important;
+}
+
+[data-theme="dark"] .hero {
+    background: linear-gradient(120deg, var(--color-hero-start), var(--color-hero-end));
+}
+
+[data-theme="dark"] .dashboard,
+[data-theme="dark"] .secondary-btn,
+[data-theme="dark"] .feature-card,
+[data-theme="dark"] .pricing-card,
+[data-theme="dark"] .about-card,
+[data-theme="dark"] .chart-box {
+    background: #14273b;
+    border-color: var(--color-border);
+}
+
+[data-theme="dark"] .dashboard-screen {
+    background: #0e1d2e;
+}
+
+[data-theme="dark"] .section-title h2,
+[data-theme="dark"] .feature-card h5,
+[data-theme="dark"] .pricing-card h3,
+[data-theme="dark"] .about-card h3 {
+    color: #eaf3ff;
+}
+
+[data-theme="dark"] .secondary-btn {
+    color: #74b9ff;
+}

@@ -1,0 +1,45 @@
+/* =========================================================
+   SCHOOL OS — RESPONSIVE / SCREEN SIZE RULES
+   Only screen-size adaptations belong here.
+   ========================================================= */
+
+/* ---------- LARGE TABLETS / SMALL LAPTOPS ---------- */
+@media (max-width: 1199px) {
+    .hero h1 { font-size: 52px; }
+    .dashboard-screen { min-height: 290px; }
+}
+
+/* ---------- TABLETS ---------- */
+@media (max-width: 991px) {
+    .hero { padding: 85px 0; }
+    .hero-content { text-align: center; }
+    .hero-description { margin-left: auto; margin-right: auto; }
+    .hero-buttons { justify-content: center; }
+    .dashboard-wrapper { margin-top: 60px; }
+    .dashboard { transform: none; }
+    .nav-link.active::after { display: none; }
+    .navbar .d-flex { margin-top: 15px; }
+}
+
+/* ---------- PHONES ---------- */
+@media (max-width: 575px) {
+    .hero { padding: 60px 0; min-height: auto; }
+    .hero h1 { font-size: 38px; }
+    .hero-description { font-size: 15px; }
+    .hero-buttons > * { width: 100%; justify-content: center; }
+    .dashboard-screen { min-height: 225px; padding: 8px; }
+    .dash-sidebar { min-height: 200px; }
+    .stat-box { height: 62px; padding: 8px; }
+    .stat-box h3 { font-size: 13px; }
+    .stat-box p { font-size: 6px; }
+    .section { padding: 60px 0; }
+    .pricing-card, .about-card { padding: 24px; }
+    .cta { padding: 60px 20px; }
+}
+
+/* ---------- EXTRA SMALL PHONES ---------- */
+@media (max-width: 380px) {
+    .hero h1 { font-size: 33px; }
+    .navbar-brand { font-size: 22px; }
+    .brand-icon { width: 38px; height: 38px; }
+}

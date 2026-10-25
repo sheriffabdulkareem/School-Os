@@ -1,0 +1,29 @@
+/* =========================================================
+   SCHOOL OS — BRAND COLORS
+   Change the school's visual identity from this one file.
+   ========================================================= */
+:root {
+    --color-primary: #0877e8;
+    --color-primary-dark: #0566ca;
+    --color-navy: #082e5d;
+    --color-heading: #0b2d5c;
+    --color-text: #52667a;
+    --color-muted: #72859a;
+    --color-border: #e5edf5;
+    --color-surface: #ffffff;
+    --color-surface-soft: #f5f9fd;
+    --color-hero-start: #f7fbff;
+    --color-hero-end: #ffffff;
+
+    --color-success: #16b886;
+    --color-warning: #f6a623;
+    --color-purple: #7c4dff;
+    --color-danger: #e34f8b;
+
+    --shadow-soft: 0 15px 40px rgba(20, 70, 110, .09);
+    --shadow-dashboard: 0 30px 70px rgba(15, 55, 95, .16);
+    --radius-sm: 8px;
+    --radius-md: 14px;
+    --radius-lg: 20px;
+    --transition: .3s ease;
+}
